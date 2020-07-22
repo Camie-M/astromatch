@@ -24,7 +24,7 @@ rodar:
 1. `npm install` para instalar todas as dependências;
 2. `npm run start` para rodar localmente o projeto
 
-## Contato (opcional)
+## Contato
 
 Camila Miranda de Moura
 camila.miranda.moura@gmail.com
