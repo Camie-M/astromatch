@@ -1,30 +1,46 @@
-# Astromatch
+<h1 align="center">
+    Astromatch
+</h1>
 
-## Stack
+## :bookmark: Sobre
 
-Esse é um projeto de Frontend Web feito utilizando ReactJS, HTML e CSS;
-e como gerenciador de pacotes do NodeJS o npm. Os arquivos na pasta
-`components` contém os components do projeto (página inicial, página de
-matches e componente para limpar matches).
+O **Astromatch** consiste em uma aplicação inspirada no Tinder, onde é possível dar match com diferentes personagens e conferir uma lista dos mesmos. Também é possível limpar os matches. Há uma integração com API externa, onde estão os dados dos personagens.
 
-## Sobre
+Esse foi um dos primeiros projetos que fiz em React, durante formação de Desenvolvedor Web FullStack da [Labenu](https://www.labenu.com.br/). Foi feito usando componentes de classe e há integrações com uma API externa, onde estão os dados dos personagens. Os arquivos na pasta `components` contém os components do projeto (página inicial, página de matches e componente para limpar matches).
 
-Esse foi um dos primeiros projetos que fiz em React.
-O Astromatch consiste em uma aplicação inspirada no Tinder, onde é possível
-dar match com diferentes personagens e conferir uma lista dos mesmos. Também é
-possível limpar os matches.
-Há uma integração com API externa, onde estão os dados dos personagens.
+## :rocket: Tecnologias
 
-## Instruções para rodar
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](http://facebook.github.io/react-native/)
+- [axios](https://github.com/axios/axios)
 
-Por ser um projeto com ReactJS, há a necessidade do NodeJS instalado.
-Depois, basta abrir o terminal e navegar até o repositório clonado e
-rodar:
+## :boom: Como Executar
 
-1. `npm install` para instalar todas as dependências;
-2. `npm run start` para rodar localmente o projeto
+- ### **Pré-requisitos**
 
-## Contato
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  
+1. Faça um clone do repositório:
 
-Camila Miranda de Moura
+```sh
+  $ git clone https://github.com/Camie-M/astromatch.git
+```
+
+2. Executando a Aplicação:
+
+```sh
+  # API
+  $ cd server
+  # Instalando as dependências do projeto.
+  $ npm install # ou yarn
+  # Aplicação
+  $ npm start # ou yarn start
+```
+
+## :email: Contato
+
+<p>Camila Miranda de Moura</p>
 camila.miranda.moura@gmail.com
